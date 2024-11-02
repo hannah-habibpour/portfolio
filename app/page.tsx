@@ -11,6 +11,9 @@ const Home = () => {
       <p>
         <Link href="/contact">Contact</Link>
       </p>
+      <p>
+        <Link href="/projects">Projects</Link>
+      </p>
     </div>
   );
 };
