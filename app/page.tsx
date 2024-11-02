@@ -4,9 +4,12 @@ const Home = () => {
   return (
     <div>
       <h1>Home</h1>
-      <p>Hello World! This is the Home page</p>
+      <p>Hannah Portfolio</p>
       <p>
-        Visit the <Link href="/about">About</Link> page.
+        <Link href="/blog">Blog</Link>
+      </p>
+      <p>
+        <Link href="/contact">Contact</Link>
       </p>
     </div>
   );
