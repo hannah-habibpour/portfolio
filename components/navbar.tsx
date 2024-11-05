@@ -4,7 +4,9 @@ export default function Navbar() {
   return (
     <div className="flex justify-between">
       <div>
-        <p>Home</p>
+        <p>
+          <Link href="/">Home</Link>
+        </p>
       </div>
       <div className="flex w-[220px] justify-between">
         <p>
