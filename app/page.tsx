@@ -1,25 +1,11 @@
-import Link from "next/link";
 import Image from "next/image";
+import Navbar from "../components/navbar";
+import { DownloadResumeBtn } from "../components/download-resume-btn";
 
 const Home = () => {
   return (
     <div className="h-svh overflow-hidden px-[38px] py-[22px]">
-      <div className="flex bg-red-500 justify-between">
-        <div>
-          <p>Home</p>
-        </div>
-        <div className="bg-yellow-300 flex w-[220px] justify-between">
-          <p>
-            <Link href="/projects">Projects</Link>
-          </p>
-          <p>
-            <Link href="/blog">Blog</Link>
-          </p>
-          <p>
-            <Link href="/contact">Contact</Link>
-          </p>
-        </div>
-      </div>
+      <Navbar />
       <div className="h-svh flex items-center px-[74px]">
         <div className=" bg-purple-300 flex gap-[98px]">
           <div className="bg-green-500">
@@ -35,9 +21,7 @@ const Home = () => {
                 dolores sit vel ipsum.
               </div>
             </div>
-            <button className="w-[208px] h-[47px] text-[20px] mt-[18px] bg-[#FF6464] text-white">
-              Download Resume
-            </button>
+            <DownloadResumeBtn />
           </div>
           <div className="max-w-[250px] mx-auto">
             <Image
