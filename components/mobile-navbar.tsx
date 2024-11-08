@@ -16,7 +16,7 @@ export default function MobileNavbar() {
   }
 
   return (
-    <div className="bg-white absolute top-0 left-0 w-full">
+    <div className="bg-white fixed top-0 left-0 w-full">
       <div className="p-[12px] flex justify-end">
         <div onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">
           {isOpen ? (
