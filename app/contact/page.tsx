@@ -6,11 +6,11 @@ export default function Contact() {
   return (
     <div className="py-[30px] px-[30px] md:py-[58px] md:px-[150px]">
       <div>
-        <div className="text-[30px] md:text-[44px] mb-[10px] md:mb-[18px]">
+        <div className="text-[30px] md:text-[44px] mb-[26px] md:mb-[36px]">
           Contact
         </div>
         <div className="flex items-center gap-[8px]">
-          <div className="text-[24px] bg-neutral-700/20 rounded-full p-[12px]">
+          <div className="text-[24px] bg-neutral-700/10 rounded-full p-[12px]">
             <LuMail />
           </div>
           <div className="flex flex-col">

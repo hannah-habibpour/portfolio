@@ -16,7 +16,7 @@ export default function SocialButton({ social }: any) {
     <div className="w-full">
       <Link
         href={social.url}
-        className="bg-neutral-700/20 rounded-md p-[4px] flex items-center justify-center gap-[8px]"
+        className="bg-neutral-700/10 rounded-md p-[4px] flex items-center justify-center gap-[8px]"
         target="_blank"
       >
         <span className="text-[28px]">{socialIcon}</span>
