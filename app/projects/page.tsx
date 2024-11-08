@@ -7,6 +7,7 @@ export default function Projects() {
       <div className="text-[30px] md:text-[44px] mb-[10px] md:mb-[18px]">
         Project
       </div>
+
       {projects.map((project) => (
         <ProjectCard key={project.id} project={project} />
       ))}

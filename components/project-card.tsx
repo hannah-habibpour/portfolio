@@ -7,18 +7,20 @@ export default function ProjectCard({ project }: any) {
         <Image
           src={project.imageSrc}
           alt={project.title}
-          width={339}
+          width={338}
           height={230}
         />
       </div>
-      <div>
-        <div className="text-[22px] md:text-[28px]">{project.title}</div>
-        <div className="text-[16px] md:text-[18px] text-white">
+      <div className="max-w-[338px] md:max-w-[680px]">
+        <div className="text-[18px] md:text-[22px]">{project.title}</div>
+        <div className="text-[12px] md:text-[14px] text-white">
           <span className="bg-[#142850] py-[2px] px-[8px] rounded-xl">
             {project.startDate}
           </span>
         </div>
-        <div className="text-[16px] line-clamp-2">{project.description}</div>
+        <div className="text-[16px] mt-[4px] line-clamp-2 md:line-clamp-4">
+          {project.description}
+        </div>
       </div>
     </div>
   );
