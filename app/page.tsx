@@ -3,9 +3,24 @@ import { DownloadResumeBtn } from "../components/download-resume-btn";
 
 const Home = () => {
   return (
+    <div>
+      <div className="hidden md:block">
+        <AppContent />
+      </div>
+      <div className=" md:hidden">
+        <MobileAppContent />
+      </div>
+    </div>
+  );
+};
+
+export default Home;
+
+function AppContent() {
+  return (
     <div className="h-svh flex items-center px-[74px]">
-      <div className=" bg-purple-300 flex gap-[98px]">
-        <div className="bg-green-500">
+      <div className="flex gap-[80px]">
+        <div className="min-w-[280px]">
           <div>
             <div className="text-[44px]">
               <p>Hi, I'm Hannah,</p>
@@ -20,7 +35,7 @@ const Home = () => {
           </div>
           <DownloadResumeBtn />
         </div>
-        <div className="max-w-[250px] mx-auto">
+        <div className="w-[250px] flex-none">
           <Image
             src="/assets/images/hannah.jpeg"
             alt="Hannah's Image"
@@ -33,6 +48,36 @@ const Home = () => {
       </div>
     </div>
   );
-};
+}
 
-export default Home;
+function MobileAppContent() {
+  return (
+    <div className="flex flex-col justify-center items-center text-center">
+      <div className="max-w-[175px] mx-auto">
+        <Image
+          src="/assets/images/hannah.jpeg"
+          alt="Hannah's Image"
+          width={175}
+          height={180}
+          layout="responsive"
+          className="rounded-full"
+        />
+      </div>
+      <div className="mt-[20px]">
+        <div>
+          <div className="text-[33px]">
+            <p>Hi, I'm Hannah,</p>
+            <p>Software Engineer</p>
+          </div>
+          <div className="text-[16px] py-[8px] max-w-md mx-auto">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+            quos illo commodi dignissimos alias asperiores impedit deleniti quia
+            sed molestias veniam error quo odit ad possimus, dolores sit vel
+            ipsum.
+          </div>
+        </div>
+        <DownloadResumeBtn />
+      </div>
+    </div>
+  );
+}
