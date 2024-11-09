@@ -3,7 +3,7 @@ import Link from "next/link";
 export function BlogPost({ blogPost }: any) {
   return (
     <div>
-      <Link href={blogPost.blogUrl}>
+      <Link href={blogPost.blogPostUrl}>
         <div className="text-[26px] md:text-[30px]">{blogPost.title}</div>
         <div className="text-[14px] md:text-[16px] flex items-center">
           <div>{blogPost.date}</div>
