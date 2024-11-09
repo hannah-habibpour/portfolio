@@ -27,10 +27,16 @@ function AppContent() {
               <p>Software Engineer</p>
             </div>
             <div className="text-[16px] py-[8px]">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
-              quos illo commodi dignissimos alias asperiores impedit deleniti
-              quia sed molestias veniam error quo odit ad possimus, dolores sit
-              vel ipsum.
+              <p>
+                I'm a full-stack software engineer based in Toronto, with a
+                degree in computer programming. For the past two years, I've
+                been building products with a focus on clean code and thoughtful
+                system design.
+              </p>
+              <p className="mt-[10px]">
+                Away from the keyboard, I find inspiration in nature and
+                creative expression through painting.
+              </p>
             </div>
           </div>
           <DownloadResumeBtn />
@@ -70,10 +76,16 @@ function MobileAppContent() {
             <p>Software Engineer</p>
           </div>
           <div className="text-[16px] py-[8px] max-w-md mx-auto">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
-            quos illo commodi dignissimos alias asperiores impedit deleniti quia
-            sed molestias veniam error quo odit ad possimus, dolores sit vel
-            ipsum.
+            <p>
+              I'm a full-stack software engineer based in Toronto, with a degree
+              in computer programming. For the past two years, I've been
+              building products with a focus on clean code and thoughtful system
+              design.
+            </p>
+            <p className="mt-[10px]">
+              Away from the keyboard, I find inspiration in nature and creative
+              expression through painting.
+            </p>
           </div>
         </div>
         <DownloadResumeBtn />

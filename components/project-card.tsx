@@ -1,7 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ProjectCard({ project }: any) {
+import { ProjectType } from "../contracts/types";
+
+interface ProjectCardProps {
+  project: ProjectType;
+}
+
+export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div className="md:flex md:items-start mb-[30px] md:mb-[10px]">
       <div className="flex-none md:pt-[10px] md:mr-[14px]">
