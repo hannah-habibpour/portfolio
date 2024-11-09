@@ -10,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="h-svh md:overflow-hidden px-[38px] py-[22px]">
+      <body className="h-svh px-[38px] py-[22px]">
         <div className="hidden md:block">
           <Navbar />
         </div>
