@@ -4,34 +4,7 @@
     "title": "My first blog post",
     "date": "2020-01-01",
     "tags": ["first", "blog", "post"],
-    "content": "This is my first blog post. I hope you enjoy it!"
-  },
-  {
-    "id": 2,
-    "title": "My second blog post",
-    "date": "2020-01-02",
-    "tags": ["second", "blog", "post"],
-    "content": "This is my second blog post. I hope you enjoy it!"
-  },
-  {
-    "id": 3,
-    "title": "My third blog post",
-    "date": "2020-01-03",
-    "tags": ["third", "blog", "post"],
-    "content": "This is my third blog post. I hope you enjoy it!"
-  },
-  {
-    "id": 4,
-    "title": "My fourth blog post",
-    "date": "2020-01-04",
-    "tags": ["fourth", "blog", "post"],
-    "content": "This is my fourth blog post. I hope you enjoy it!"
-  },
-  {
-    "id": 5,
-    "title": "My fifth blog post",
-    "date": "2020-01-05",
-    "tags": ["fifth", "blog", "post"],
-    "content": "This is my fifth blog post. I hope you enjoy it!"
+    "description": "This is my first blog post. I hope you enjoy it!",
+    "blogUrl": "/blog/glovee"
   }
 ]
