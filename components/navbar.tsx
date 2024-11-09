@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between fixed w-full top-0 left-0 bg-white px-[18px] pt-[18px]">
+    <div className="flex justify-between fixed w-full top-0 left-0 bg-white px-[34px] pt-[18px]">
       <div>
         <p>
           <Link href="/">Home</Link>
