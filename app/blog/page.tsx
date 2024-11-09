@@ -3,7 +3,8 @@ import blogPosts from "../../data/blog-posts.json";
 import { BlogPost } from "../../components/blog-post";
 
 export default function Blog() {
-  const sortedBlogPosts = blogPosts.sort(
+  const blogPostData: BlogPostType[] = blogPosts;
+  const sortedBlogPosts = blogPostData.sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
   return (
