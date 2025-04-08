@@ -39,7 +39,7 @@ function AppContent() {
               </p> */}
             </div>
           </div>
-          <DownloadResumeBtn />
+          {/* <DownloadResumeBtn /> */}
         </div>
         <div className="w-[250px] flex-none">
           <Image
