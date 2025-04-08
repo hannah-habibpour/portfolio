@@ -24,19 +24,19 @@ function AppContent() {
           <div>
             <div className="text-[44px]">
               <p>Hi, I'm Hannah,</p>
-              <p>Software Engineer</p>
+              {/* <p>Software Engineer</p> */}
             </div>
             <div className="text-[16px] py-[8px]">
-              <p>
+              {/* <p>
                 I'm a full-stack software engineer based in Toronto, with a
                 degree in computer programming. For the past two years, I've
                 been building products with a focus on clean code and thoughtful
                 system design.
-              </p>
-              <p className="mt-[10px]">
+              </p> */}
+              {/* <p className="mt-[10px]">
                 Away from the keyboard, I find inspiration in nature and
                 creative expression through painting.
-              </p>
+              </p> */}
             </div>
           </div>
           <DownloadResumeBtn />
