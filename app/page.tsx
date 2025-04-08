@@ -71,7 +71,7 @@ function MobileAppContent() {
       </div>
       <div className="mt-[20px]">
         <div>
-          <div className="text-[33px]">
+          {/* <div className="text-[33px]">
             <p>Hi, I'm Hannah,</p>
             <p>Software Engineer</p>
           </div>
@@ -86,9 +86,9 @@ function MobileAppContent() {
               Away from the keyboard, I find inspiration in nature and creative
               expression through painting.
             </p>
-          </div>
+          </div> */}
         </div>
-        <DownloadResumeBtn />
+        {/* <DownloadResumeBtn /> */}
       </div>
     </div>
   );
