@@ -75,22 +75,26 @@ function MobileAppContent() {
       </div>
       <div className="mt-[20px]">
         <div>
-          {/* <div className="text-[33px]">
+          <div className="text-[33px]">
             <p>Hi, I'm Hannah,</p>
-            <p>Software Engineer</p>
+            <p>Data & Software Analyst</p>
           </div>
           <div className="text-[16px] py-[8px] max-w-md mx-auto">
             <p>
-              I'm a full-stack software engineer based in Toronto, with a degree
-              in computer programming. For the past two years, I've been
-              building products with a focus on clean code and thoughtful system
-              design.
+              Toronto based professional with a strong foundation in software
+              development and growing expertise in data analysis. I specialize
+              in transforming data into actionable insights using SQL, Python,
+              Tableau, and Excel. Familiar with and gaining hands on experience
+              in the end to end process of data pipelines, data cleaning,
+              visualization, and interpretation, I combine technical precision
+              with analytical problem solving to drive data informed decision
+              making.
             </p>
-            <p className="mt-[10px]">
+            {/* <p className="mt-[10px]">
               Away from the keyboard, I find inspiration in nature and creative
               expression through painting.
-            </p>
-          </div> */}
+            </p> */}
+          </div>
         </div>
         {/* <DownloadResumeBtn /> */}
       </div>
