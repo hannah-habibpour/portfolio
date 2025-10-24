@@ -1,0 +1,70 @@
+## Telco Customer Churn Analysis
+
+> **Dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/hannah.habibpour/viz/ChurnRateDashboard_17456806199670/ChunRateDashboard) > [![Open the Tableau Dashboard](https://public.tableau.com/static/images/Ch/ChurnRateDashboard_17456806199670/ChunRateDashboard/1.png)](https://public.tableau.com/app/profile/hannah.habibpour/viz/ChurnRateDashboard_17456806199670/ChunRateDashboard)
+
+# 1. Project Overview
+
+This project analyzes customer churn patterns for a telecommunications company using the Telco Customer Churn dataset. The goal is to identify factors that influence customer retention and present those insights through an interactive Tableau dashboard.
+
+---
+
+# 2. Objectives & Questions
+
+- **Primary objective:** Identify key drivers of churn and present actionable insights to reduce churn.
+- **Guiding questions:**
+  - What is the overall churn rate?
+  - Which segments (by contract, payment method, service type) are most likely to churn?
+  - How do tenure and charges relate to churn?
+  - What business actions can reduce churn?
+
+---
+
+# 3. Data Description
+
+- **Source:** Telco Customer Churn dataset (public / Kaggle / IBM sample).
+- **Size:** ~7,000 customer records (typical dataset size).
+- **Format:** Structured CSV (customer demographics, services, account & billing).
+- **Target:** `Churn` (Yes/No).
+- **Limitations:** Some `TotalCharges` values may require cleaning (e.g., stored as strings), possible class imbalance between churn and non-churn.
+
+---
+
+# 4. Approach & Methodology
+
+1. **Data cleaning**
+   - Convert `TotalCharges` to numeric, handle missing or erroneous values.
+   - Standardize categorical values and remove duplicates if present.
+2. **Exploratory data analysis (EDA)**
+   - Summary statistics for numeric features (tenure, MonthlyCharges, TotalCharges).
+   - Frequency and cross-tabulations for categorical features (Contract, PaymentMethod, InternetService).
+3. **Visualization**
+   - Create an interactive Tableau dashboard showcasing churn KPIs, bar/stack charts, and filters.
+4. **Interpretation**
+   - Highlight actionable insights and recommended next steps for business teams.
+
+---
+
+# 5. Statistical Tools & Techniques
+
+- Descriptive statistics and cross-tabulation.
+- Correlation / association checks between features and churn.
+- Visualization-driven pattern discovery (Tableau).
+- (Optional next step) Predictive modeling: logistic regression, decision trees, random forest, XGBoost; evaluate with ROC, precision/recall, F1-score.
+
+---
+
+# 6. Key Findings (summary)
+
+- **Month-to-month contract** customers show the highest churn rates — short-term contracts are a major risk factor.
+- **Electronic check** payment method correlates with higher churn compared to other payment methods.
+- **Fiber optic** internet users have higher churn than DSL users in this dataset.
+- Greater **tenure** correlates strongly with reduced churn (loyalty effect).
+
+---
+
+# 7. Conclusions & Recommendations
+
+- Prioritize retention interventions for month-to-month customers (special offers, loyalty incentives).
+- Investigate friction in electronic check payments and consider outreach or alternative incentives.
+- Explore customer experience for fiber optic users to understand causes (support, outages, pricing).
+- Build a predictive churn model to enable proactive retention campaigns.

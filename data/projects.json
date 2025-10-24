@@ -4,9 +4,29 @@
     "title": "Glovee - CRM for Immigration Consultants",
     "imageSrc": "/assets/images/glovee-project-thumbnail.png",
     "startDate": "Sep 2023",
-    "endDate": "Ongoing",
+    "endDate": "Jan 2025",
     "description": "It is a web-based application that helps consultants to manage their clients, cases, and documents.",
     "projectUrl": "/projects/glovee",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Telco Customer Churn Analysis",
+    "imageSrc": "/assets/images/chun-rate-dashboard-thumbnail.png",
+    "startDate": "Apr 2025",
+    "endDate": "done",
+    "description": "Telco Customer Churn — interactive Tableau dashboard and analysis.",
+    "projectUrl": "/projects/telco",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "US Debt Tracker",
+    "imageSrc": "/assets/images/us-debt-tracker-thumbnail.png",
+    "startDate": "Oct 2025",
+    "endDate": "done",
+    "description": "It is an Excel-based data analysis project created to explore and visualize trends in the United States’ public and governmental debt.",
+    "projectUrl": "/projects/us_debt_tracker",
     "featured": true
   }
 ]
