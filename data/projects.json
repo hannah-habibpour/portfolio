@@ -28,5 +28,15 @@
     "description": "It is an Excel-based data analysis project created to explore and visualize trends in the United States’ public and governmental debt.",
     "projectUrl": "/projects/usdebt",
     "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Marketing Analysis",
+    "imageSrc": "/assets/images/marketing-analysis-thumbnail.png",
+    "startDate": "Nov 2025",
+    "endDate": "done",
+    "description": "This project analyzes retail customer data to uncover trends in demographics, country distribution, and sentiment versus product ratings. It also examines website interactions to improve the online shopping experience and support targeted marketing",
+    "projectUrl": "/projects/marketing_analysis",
+    "featured": true
   }
 ]
