@@ -24,7 +24,7 @@ function AppContent() {
           <div>
             <div className="text-[44px]">
               <p>Hi, I'm Hannah,</p>
-              <p>Data & Software Analyst</p>
+              <p>Data Analyst</p>
             </div>
             <div className="text-[16px] py-[8px]">
               <p>
@@ -77,7 +77,7 @@ function MobileAppContent() {
         <div>
           <div className="text-[33px]">
             <p>Hi, I'm Hannah,</p>
-            <p>Data & Software Analyst</p>
+            <p>Data Analyst</p>
           </div>
           <div className="text-[16px] py-[8px] max-w-md mx-auto">
             <p>
